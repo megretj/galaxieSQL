@@ -1,6 +1,6 @@
 # Galaxie SQL
 
-Repo pour l'atelier du coding club des filles pour apprendre le SQL: [Accio Query](https://megretj.github.io/galaxieSQL/)
+Repo pour l'atelier du coding club des filles pour apprendre le SQL: [Galaxie SQL](https://megretj.github.io/galaxieSQL/)
 
 **Service de promotion des sciences de l'EPFL - 2024**
 

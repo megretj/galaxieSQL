@@ -1,7 +1,7 @@
 ---
 layout: tutorial_fr
 title: Le ministère de la magie
-dbFile: data/harrypotter_fr.db
+dbFile: data/alien_fr.db
 ---
 
 # Le ministère de la magie 

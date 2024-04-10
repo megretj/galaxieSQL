@@ -1,7 +1,7 @@
 ---
 title: Einfuerung workshop SQL
 layout: tutorial_de
-dbFile: data/harrypotter_de.db
+dbFile: data/aliens_de.db
 ---
 <h1>Accio Query!</h1>
 <div class="warning">

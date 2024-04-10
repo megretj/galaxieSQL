@@ -19,6 +19,8 @@ def createPizza(ingrédients):
         recette += " " + ing +","
     return recette + " et " + ingrédients_choisis[-1] + "."
 
+
+
 def generate_alien():
     with open('attributs_aliens.pkl', 'rb') as f:
         attributs = pickle.load(f)

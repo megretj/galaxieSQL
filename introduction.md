@@ -1,7 +1,7 @@
 ---
 title: Introduction atelier SQL
 layout: tutorial_fr
-dbFile: data/harrypotter_fr.db
+dbFile: data/alien_fr.db
 ---
 <h1>Accio Query!</h1>
 
