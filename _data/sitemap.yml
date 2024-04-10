@@ -1,0 +1,80 @@
+contents_de:
+- title: Einfuerung workshop SQL
+  url: einfuerung.html
+  blurb: "Einfuerung an der workshop SQL"
+- title: Das Zaubereiministerium
+  url: zaubereiministerium.html
+  blurb: "Einfuerung "
+  sections:
+  - name: Der magische Befehl
+    url: "#base"
+  - name: Zählen
+    url: "#zaehlen"
+  - name: Informationen filtern
+    url: "#filtern"
+  - name: Zählen UND Filtern
+    url: "#zaehlenFiltern"
+  - name: Die verschiedenen Tabellen in der Datenbank
+    url: "#struktur"
+- title: Der Diebstahl des Feuerkelchs
+  url: der_diebstahl_des_Feuerkelchs.html
+  blurb: "Untersuchung des Diebstahls des Feuerkelchs unter Verwendung der Datenbank des Zauberministeriums."
+  sections:
+  - name: Der Zeuge
+    url: "#zeuge"
+  - name: Der Kämpfer
+    url: "#kaempfer"
+  - name: Der/die Schuldige
+    url: "#schuldige"
+- title: Zusätzliche Herausforderungen
+  url: zusaetzliche_herausforderungen.html
+  blurb: "Zusätzliche Übungen"
+  sections:
+  - name: NOT
+    url: "#not"
+  - name: LIKE
+    url: "#like"
+  - name: JOIN
+    url: "#join"
+- title: SQL-Befehle
+  url: sql_befehle.html
+
+contents_fr:
+- title: Introduction atelier SQL
+  url: introduction.html
+  blurb: "Introduction à l'atelier SQL"
+- title: Le ministère de la magie
+  url: atelier.html
+  blurb: "Introduction à l'utilisation d'une base de données SQL."
+  sections:
+  - name: La requête magique
+    url: "#base"
+  - name: Compter
+    url: "#compter"
+  - name: Filtrer les informations
+    url: "#filtrer"
+  - name: "Compter AND Filtrer"
+    url: "#compterEtFiltrer"
+  - name: Les tableaux de la base de données
+    url: "#structure"
+- title: Le vol de la coupe de feu
+  url: vol_de_la_coupe_de_feu.html
+  blurb: "Enquête du vol de la coupe de feu utilisant la base de données du ministère de la magie."
+  sections:
+  - name: Les témoins
+    url: "#témoins"
+  - name: Le combattant
+    url: "#combattant"
+  - name: Le/la coupable
+    url: "#coupable"
+- title: Défis supplémentaires
+  url: défi_supplémentaire.html
+  sections:
+  - name: NOT
+    url: "#not"
+  - name: LIKE
+    url: "#like"
+  - name: JOIN
+    url: "#join"
+- title: Commandes SQL
+  url: commandes_sql.html

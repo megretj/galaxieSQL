@@ -1,0 +1,560 @@
+@font-face {
+    font-family: "SuisseIntl-light";
+    src:
+      url("SuisseIntl-Light/SuisseIntl-Light.woff2") format("woff2"),
+      url("SuisseIntl-Light/SuisseIntl-Light.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+/* font elements */
+h1,h2,h3,h4,h5,h6 {
+    color: #333;
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    line-height: 1.15;
+    margin: 0;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+}
+
+h4 {
+    display: inline;
+    font-weight: 700;
+}
+
+p {
+    margin: 0.5em 0 0.5em 0;
+    line-height: 170%;
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'SuisseIntl-Light';
+
+}
+
+ul li {
+    list-style-position: outside;
+}
+
+ol li {
+    list-style-position: outside;
+}
+
+code, pre {
+    font-family: Consolas,monospace;
+    font-weight: 700;
+}
+
+pre {
+    margin-left: 1em;
+}
+
+.codeblock {
+    padding-left: 1em;
+    border-left: solid 4px lightgrey;
+    background-color: #eaf4f7;
+}
+
+/* general */
+html {
+    font-size: 18px;
+    cursor: url('../imgs/magicwand_new_small.png'), auto;
+}
+
+body {
+    color: #1b1e23;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+body #column {
+  max-width: 55rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+.content img {
+    width: 100%
+}
+
+
+.header {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.header .logo {
+    height: 70px;
+    }
+
+.header .title {
+    display: inline-block;
+    font-family: 'Roboto Condensed',sans-serif;
+    color: #333;
+    font-weight: 800;
+    font-size: 2em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+}
+
+.footer {
+    margin-top: 8em;
+    font-family: 'Roboto',sans-serif;
+    color: #666;
+    font-weight: 200;
+    font-size: 100%;
+}
+
+.tutorial-nav {
+    margin-top: 2em;
+}
+
+.tutorial-nav  .previous {
+    float: left;
+    max-width: 50%;
+}
+
+.tutorial-nav  .next {
+    float: right;
+    max-width: 50%;
+}
+
+.keyword {
+    color:#075800;
+}
+
+.footnotes{
+    font-size: 13px;
+}
+
+figcaption{
+    text-align: center;
+    font-size:14px;
+    font-weight: 100;
+}
+/* Buttons */
+
+.button-link {
+    height: 45px;
+    max-width: fit-content;
+    border: 0;
+    border-radius: 8px;
+    padding: 20px 20px;
+    background: hwb(345 15% 3%);
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 0;
+    color: #ffffff;
+    cursor: url('../imgs/magicwand_new_small.png'), auto;
+    outline: none;
+    box-shadow: 0 5px 30px rgba(255, 255, 255, 0.05);
+    text-align: center;
+}
+.button-link:hover{
+    background: hwb(345 40% 3%);
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center
+}
+
+.is-centered{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+/* hyperlinks */
+a {
+    color: hwb(345 15% 3%);
+    text-decoration: none;
+}
+
+a:hover {
+    background: #f2f8fa;
+    cursor: url('../imgs/magicwand_new_small.png'), auto;
+}
+
+/* index page */
+.index_section {
+    margin-top: 1em;
+}
+
+.index_section p{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 200;
+    line-height: 120%;
+}
+
+/* tutorial nav links */
+.section-nav {
+    color: #1b1e23;
+    font-family: Roboto, sans-serif;
+    /* font-family: SuisseIntl-Light; */
+    font-size: 1.2em;
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+
+.section-nav .section-sib {
+    margin-left: 1em;
+}
+
+.section-nav .section-sib a.here {
+    background: #fbfbfb;
+    font-weight: bolder;
+}
+
+.section-nav .cur-text {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.section-nav .childlinks {
+    margin-left: 3em;
+    font-weight: 200;
+}
+
+.section-nav .childlinks a.here {
+    background: #fbfbfb;
+    font-weight: bolder;
+}
+
+
+/* sideNote */
+.sideNote {
+    margin: 1em 0em;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    font-size: 1em;
+    border-left: 3px solid #bfd444;
+    background-color: rgb(249, 255, 215);
+}
+
+.supplementary {
+    margin: 1em 0em;
+    padding: 0.5em;
+    padding-left: 1.5em;
+    font-size: 0.95em;
+    border-left: 3px solid #4452d4;
+    background-color: rgb(215, 219, 255)
+}
+
+.warning {
+    margin: 1em 1em;
+    padding: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 0.95em;
+    border: 2px solid #f7265b;
+    background-color: #ffe2e9;
+    border-radius: 1em;
+}
+
+/* datatable */
+.datatable {
+    border: solid 1px grey;
+    border-collapse: collapse;
+    /*font-size: 12px;*/
+}
+.datatable thead, td {
+    padding: 5px;
+    border: solid 1px grey;
+}
+
+.datatable thead {
+    background: lightgrey;
+}
+
+.verdict {
+    color:#075800;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* sql quiz component */
+button .verify-button{
+    min-height: 20px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    padding: 5px 5px;
+    background: hwb(345 15% 3%);
+    font-size: 20px;
+    color: #000000;
+    cursor: url('../imgs/magicwand_new_small.png'), auto;
+    outline: none;
+    box-shadow: 0 5px 30px rgba(255, 255, 255, 0.05);
+    text-align: center;
+    margin: auto;
+}
+
+button:hover {
+    cursor: url('../imgs/magicwand_new_small.png'), auto;
+}
+
+/*CURSOR*/
+
+.custom-icon{
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    fill:currentColor;
+    vertical-align: middle;
+}
+
+.icon-sparkles-red{
+    background-image: url("../imgs/sparkles-red.svg");
+}
+
+.icon-sparkles-pink{
+    background-image: url("../imgs/sparkles-pink.svg");
+}
+
+:root {
+    --glow-rgb: 239 42 201;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .glow-point {
+    position: absolute;
+    box-shadow: 0rem 0rem 1.2rem 0.6rem rgb(var(--glow-rgb));
+    pointer-events: none;
+  }
+  
+  .star {
+    position: absolute;
+    z-index: 2;
+    color: rgb(141, 42, 42);
+    font-size: 1rem;
+    animation-duration: 1500ms;
+    animation-fill-mode: forwards;
+    pointer-events: none;
+  }
+  
+  @keyframes fall-1 {
+    0% {
+      transform: translate(0px, 0px) rotateX(45deg) rotateY(30deg) rotateZ(0deg) scale(0.25);
+      opacity: 0;
+    }
+    
+    5% {
+      transform: translate(10px, -10px) rotateX(45deg) rotateY(30deg) rotateZ(0deg) scale(1);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: translate(25px, 200px) rotateX(180deg) rotateY(270deg) rotateZ(90deg) scale(1);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fall-2 {
+    0% {
+      transform: translate(0px, 0px) rotateX(-20deg) rotateY(10deg) scale(0.25);
+      opacity: 0;
+    }
+    
+    10% {
+      transform: translate(-10px, -5px) rotateX(-20deg) rotateY(10deg) scale(1);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: translate(-10px, 160px) rotateX(-90deg) rotateY(45deg) scale(0.25);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fall-3 {
+    0% {
+      transform: translate(0px, 0px) rotateX(0deg) rotateY(45deg) scale(0.5);
+      opacity: 0;
+    }
+    
+    15% {
+      transform: translate(7px, 5px) rotateX(0deg) rotateY(45deg) scale(1);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: translate(20px, 120px) rotateX(-180deg) rotateY(-90deg) scale(0.5);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes rise-1 {
+    0% {
+      transform: translate(0px, 0px) rotateX(0deg) rotateY(45deg) scale(0.5);
+      opacity: 0;
+    }
+    
+    15% {
+      transform: translate(7px, -5px) rotateX(0deg) rotateY(45deg) scale(1);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: translate(20px, -120px) rotateX(-180deg) rotateY(-90deg) scale(0.5);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes rise-2 {
+    0% {
+      transform: translate(0px, 0px) rotateX(0deg) rotateY(45deg) scale(0.5);
+      opacity: 0;
+    }
+    
+    15% {
+      transform: translate(7px, -5px) rotateX(0deg) rotateY(45deg) scale(1);
+      opacity: 1;
+    }
+    
+    100% {
+      transform: translate(20px, -120px) rotateX(-180deg) rotateY(-90deg) scale(0.5);
+      opacity: 0;
+    }
+  }
+
+/*END FANCY CURSOR*/
+
+.trail { /* className for the trail elements */
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background: rgb(255, 238, 144);
+  }
+
+.sqlQuizHomeDiv {
+    margin: 1em 0em;
+    background: #f9f9f9;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: 200;
+}
+
+.sqlQuizTitle {
+    font-weight: 700;
+}
+
+sql-quiz .sqlQuizInputArea {
+    line-height: 130%;
+    min-width: 100%;
+}
+sql-quiz .sqlQuizInputArea .sqlOption .sqlPrompt{
+    min-width: 100%;
+    margin: 0.5em 0em;
+}
+
+sql-quiz input[type=checkbox] {
+  transform: scale(1.5);
+  float: left;
+}
+
+sql-quiz .sqlOption .optionText {
+    display: table;
+}
+
+sql-quiz .sqlOption .hintSpan {
+    /*when revealed, display: table-row;*/
+    display: none;
+    color: blue;
+    font-weight: 200;
+}
+
+sql-quiz .sqlQuizInputArea input {
+    margin-right: 1em;
+    background: none;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 200;
+    border-width: thin;
+    height: 2em;
+}
+
+sql-quiz .sqlQuizOutputArea .returnOkay {
+    margin-top: 0.5em;
+}
+
+/* sql exercise component */
+sql-exercise .sqlExHomeDiv{
+    margin: 1em 0em;
+    font-family: Roboto, sans-serif;
+    background: #f9f9f9;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+sql-exercise .sqlExQuestion {
+    font-weight: 700;
+}
+
+sql-exercise .sqlExComment {
+    font-weight: 200;
+}
+
+sql-exercise form {
+    display: block;
+}
+
+sql-exercise .sqlExInputArea {
+    line-height: 130%;
+    min-width: 100%;
+}
+
+sql-exercise .sqlExOutputArea {
+    max-height: 12em;
+    max-width: 52rem;
+    overflow: auto;
+    background: #f9f9f9;
+}
+
+sql-exercise .sqlExOutputArea .returnOkay {
+    margin-top: 0.5em;
+}
+
+sql-exercise .sqlExOutputArea .returnError {
+    margin-top: 0.5em;
+    color: red;
+}
+
+sql-exercise .CodeMirror {
+    margin: 0.5em 0em;
+}
+
+sql-exercise .sqlExInputArea input {
+    margin-right: 1em;
+    background: none;
+    border-radius: 4px;
+    font-size: 0.8em;
+    font-weight: 200;
+    border-width: thin;
+    height: 2em;
+}

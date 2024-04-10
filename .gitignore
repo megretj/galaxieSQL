@@ -1,0 +1,10 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+_config.yml
+atelier_sql_todo.md
+databaseCreation/frharrypotter_pages_current.xml
+databaseCreation/deharrypotter_pages_current.xml
+.conda
