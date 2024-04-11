@@ -1,7 +1,7 @@
 ---
 layout: tutorial_fr
 title: Commandes SQL
-dbFile: data/harrypotter_fr.db
+dbFile: data/aliens_fr.db
 ---
 
 # Insert table with all of the translations
@@ -89,6 +89,18 @@ On peut ensuite ajouter des mots clés pour spécifier la requête (recherche).
     <td>DISTINCT</td>
     <td>Choisir les résultats qui sont différents</td>
     <td>SELECT DISTINCT relation FROM famille </td>
+  </tr>
+  <tr>
+    <td>UPDATE</td>
+    <td>METTRE A JOUR</td>
+    <td>Mettre à jour ou ajouter une information à une ligne déjà existante.</td>
+    <td>UPDATE aliens SET nombre_yeux = "3", couleur_peau  = "rouge" WHERE nom="CORVUS_2863" </td>
+  </tr>
+  <tr>
+    <td>INSERT INTO</td>
+    <td>INSÉRER DANS</td>
+    <td>Insérer une nouvelle ligne dans le tableau. On peut enlever les premières parenthèses si on veut indiquer tous les attributs </td>
+    <td>INSERT INTO aliens (nom,nombre_yeux,pizza) VALUES ("EPIMEDIUM_6171",7,"Pizza aux artichauds.") </td>
   </tr>
 </tbody>
 </table>

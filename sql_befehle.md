@@ -1,7 +1,7 @@
 ---
 layout: tutorial_de
 title: SQL-Befehle
-dbFile: data/harrypotter_de.db
+dbFile: data/aliens_de.db
 ---
 
 # Tabelle mit allen Übersetzungen einfügen

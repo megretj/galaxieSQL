@@ -5,8 +5,8 @@ dbFile: data/aliens_de.db
 ---
 <h1>Accio Query!</h1>
 <div class="warning">
-Dies ist eine Wiederholung der Informationen, die du bereits während der Präsentation gehört hast. Du musst also nicht alles nochmals genau lesen und kannst mit den <a href="zaubereiministerium.html">workshop</a> anfangen.
-<a href="zaubereiministerium.html" class="button-link center"> Workshop anfangen </a>
+Dies ist eine Wiederholung der Informationen, die du bereits während der Präsentation gehört hast. Du musst also nicht alles nochmals genau lesen und kannst mit den <a href="workshop.html">workshop</a> anfangen.
+<a href="workshop.html" class="button-link center"> Workshop anfangen </a>
 </div>
 
 Heute lernen wir, Datenbanken mit einem sehr nützlichen Tool zu verwalten: SQL (Structured Query Language bedeutet auf Englisch Strukturierte Abfragesprache). Wieso braucht man Datenbanken überhaupt?

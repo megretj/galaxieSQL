@@ -1,7 +1,6 @@
 import pickle
 import random
-import math
-from PIL import Image
+# from PIL import Image
 import xml.etree.ElementTree as ET
 
 palette = {"bleu":(0,0,255), "gris":(100,100,100), "noir":(0,0,0),"violet":(128, 0, 255),
@@ -19,24 +18,45 @@ def createPizza(ingrédients):
         recette += " " + ing +","
     return recette + " et " + ingrédients_choisis[-1] + "."
 
+def erkundePizza(ingrédients):
+    nombreIngrédients = random.randrange(1,5)
+    ingrédients_choisis = random.sample(ingrédients,nombreIngrédients)
+    recette = "Pizza mit"
+    if nombreIngrédients == 1:
+        return recette + " " + ingrédients_choisis[0]
+    for ing in ingrédients_choisis[:-1]:
+        recette += " " + ing +","
+    return recette + " und " + ingrédients_choisis[-1] + "."
+
 
 
 def generate_alien():
     with open('attributs_aliens.pkl', 'rb') as f:
         attributs = pickle.load(f)
     planète = random.choice(attributs["planète"])
-    nombre_membres = random.randint(0,9)
-    taille = random.randint(0,10000)
-    nombre_yeux = random.randint(0,10)
-    couleur_yeux = random.choice(list(attributs["couleurs"].keys()))
-    peau = random.choice(attributs["peau"])
-    couleur_peau = random.choice(list(attributs["couleurs"].keys()))
-    antennes = random.randint(0,1)
-    visage = random.choice(attributs["visage"])
-    tête = random.choice(attributs["tête"])
+    nombre_membres = random.randrange(0,10)
+    taille = random.randrange(0,10000)
+    nombre_yeux = random.randrange(0,10)
+    n = random.randrange(0,len(list(attributs["couleurs"].keys())))
+    couleur_yeux = list(attributs["couleurs"].keys())[n]
+    farbe_Augen = list(attributs["farben"].keys())[n]
+    n = random.randrange(0,len(list(attributs["peau"])))                  
+    peau = attributs["peau"][n]
+    Haut = attributs["Haut"][n]
+    n = random.randrange(0,len(list(attributs["couleurs"].keys())))
+    couleur_peau = list(attributs["couleurs"].keys())[n]
+    farbe_Haut = list(attributs["farben"].keys())[n]
+    antennes = random.randrange(0,1)
+    n = random.randrange(0,len(list(attributs["visage"])))
+    visage = attributs["visage"][n]
+    Gesicht = attributs["Gesicht"][n]
+    n = random.randrange(0,len(list(attributs["tête"])))
+    tête = attributs["tête"][n]
+    Kopf = attributs["Kopf"][n]
     pizza = createPizza(attributs["ingrédients"])
-    nom = random.choice(attributs["nom"])+"_"+str(nombre_membres)+str(math.floor(taille/1000))+str(nombre_yeux)+str(antennes)
-    return [nom,planète,nombre_membres,taille, nombre_yeux, couleur_yeux, peau, couleur_peau, antennes, visage, tête, pizza]
+    Pizza = erkundePizza(attributs["Zutaten"])
+    nom = random.choice(attributs["nom"])+"_"+str(nombre_membres)+str(int(taille/1000))+str(nombre_yeux)+str(antennes)
+    return [nom,planète,nombre_membres,taille, nombre_yeux, couleur_yeux, peau, couleur_peau, antennes, visage, tête, pizza],[nom,planète,nombre_membres,taille,nombre_yeux,farbe_Augen,Haut,farbe_Haut,antennes,Gesicht, Kopf, Pizza]
 
 def change_colour(input_image,old_colour, new_colour):
     d = input_image.getdata()
@@ -92,7 +112,7 @@ def merge_svg_files(svg_file1, svg_file2):
         f.write(ET.tostring(root1, encoding='utf-8'))
     return "images/temp/output.svg"
 
-def draw_alien_svg(nombre_membres=None, nombre_yeux = None, couleur_yeux = None, peau = None, couleur_peau = None, nombre_antennes = None, visage=None, tete=None, save=False, filename="alien.svg"):
+def draw_alien_svg(nombre_membres=None, nombre_yeux = None, couleur_yeux = None, peau = None, couleur_peau = None, nombre_antennes = None, visage=None, tete=None, save=False, filename="images/exemples/alien.svg"):
     with open('attributs_aliens.pkl', 'rb') as f:
         attributs = pickle.load(f)
     couleur_peau = couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))
@@ -133,40 +153,6 @@ def draw_alien_svg(nombre_membres=None, nombre_yeux = None, couleur_yeux = None,
     with open(new_img, 'r') as f:
             svg_data = f.read()
     if save:
-        with open(f"images/examples/{filename}", 'wb') as f:
+        with open(f"{filename}", 'wb') as f:
             f.write(svg_data.encode())
     return svg_data
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
