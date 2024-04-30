@@ -5,9 +5,6 @@ contents_de:
 - title: Das Zaubereiministerium
   url: zaubereiministerium.html
   blurb: "Einfuerung "
-  sections:
-  - name: Erste SQL Befehl
-    url: "#base"
 - title: SQL-Befehle
   url: sql_befehle.html
 
@@ -18,8 +15,5 @@ contents_fr:
 - title: Exploration spatiale
   url: atelier.html
   blurb: "Introduction à l'utilisation d'une base de données SQL."
-  sections:
-  - name: Une requête SQL
-    url: "#base"
 - title: Commandes SQL
   url: commandes_sql.html

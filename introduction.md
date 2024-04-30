@@ -3,11 +3,10 @@ title: Introduction atelier SQL
 layout: tutorial_fr
 dbFile: data/alien_fr.db
 ---
-<h1>Accio Query!</h1>
+<h1>Galaxy SQL!</h1>
 
 <div class="warning">
-Les informations présentes dans l'introduction seront données lors de la présentation. Si tu as écouté la présentation, tu n'as pas besoin de tout lire et tu peux directement commencer avec <a href="atelier.html">l'atelier</a>.<a href="atelier.html" class="button-link center"> Commencer l'atelier </a>
-</div>
+Les informations présentes dans l'introduction seront données lors de la présentation. Si tu as écouté la présentation, tu n'as pas besoin de tout lire et tu peux directement commencer avec <a href="atelier.html">l'atelier</a>.<a href="atelier.html" class="button-link center"> Commencer l'atelier</a></div>
 
 Aujourd'hui nous allons apprendre à gérer des bases de données grace à un outil bien pratique: SQL (Structured Query Language en anglais veut dire Langage de Requête Structurée). Mais à quoi servent les bases de données?
 
@@ -34,18 +33,7 @@ La particularité de SQL est que la syntaxe (les règles d'écriture) est assez 
 
 <h4> Informations sur la base de données</h4>
 
-* Les données proviennent du projet open-source <a href = "https://harrypotter.fandom.com/fr/wiki/Wiki_Harry_Potter">Wiki Harry Potter</a>.
-* Les données sont standardisées de manière qu'elles commencent toutes par une lettre majuscule.
-* Les chiffres 0 dans l'année de naissance et de mort veulent signifier que l'on a pas l'information ou que le personnage en question n'est pas mort.
-* Des données telles que les cheveux, les yeux et le patronus ont partiellement été générées aléatoirement.
-
-<div class="sideNote">
-On verra que la base de données n'est pas remplie partout. En effet, parfois les données ne sont pas disponible mais aussi souvent les données sont remplies par des humains et il peut y avoir des erreurs. Dans notre cas, on a utilisé le site <a href = "https://harrypotter.fandom.com/fr/wiki/Wiki_Harry_Potter">Wiki Harry Potter</a>. C'est aussi le travail d'une data scientist de "nettoyer" des données pour les rendre lisibles et cohérentes! Il se peut qu'il y ait encore des erreurs, tu peux volontiers nous les dire et on modifiera la base en conséquence.
-</div>
-
-<div class="warning">
-Pour ne pas trop spoiler les livres/les films, certaines des informations sur les personnages ont été modifiées. Dans tous les cas si tu n'as pas encore lu les livres on te conseille vivement de le faire!
-</div>
+Les données sont toutes générées aléatoirement.
 
 Si tu ne te souviens plus d'une commande que tu as utilisée, tu peux te référer au <a href="commandes_sql.html">résumé des principales commandes sql</a>.
 

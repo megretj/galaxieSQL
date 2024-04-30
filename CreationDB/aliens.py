@@ -112,7 +112,7 @@ def merge_svg_files(svg_file1, svg_file2):
         f.write(ET.tostring(root1, encoding='utf-8'))
     return "images/temp/output.svg"
 
-def draw_alien_svg(nombre_membres=None, nombre_yeux = None, couleur_yeux = None, peau = None, couleur_peau = None, nombre_antennes = None, visage=None, tete=None, save=False, filename="images/exemples/alien.svg"):
+def draw_alien_svg(nombre_membres=None, nombre_yeux = None, couleur_yeux = None, peau = None, couleur_peau = None, antennes = False, visage=None, tete=None, save=False, filename="images/exemples/alien.svg"):
     with open('attributs_aliens.pkl', 'rb') as f:
         attributs = pickle.load(f)
     couleur_peau = couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))
@@ -136,7 +136,7 @@ def draw_alien_svg(nombre_membres=None, nombre_yeux = None, couleur_yeux = None,
     yeux_data = yeux_data.replace("#1d1d1b",attributs['couleurs'][couleur_yeux if couleur_yeux is not None else random.choice(list(attributs['couleurs'].keys()))])
     with open("images/temp/yeux.svg", "wb") as f:
         f.write(yeux_data.encode())
-    with open(f"images/antennes_{nombre_antennes if nombre_antennes is not None else random.randint(1,3)}.svg", 'r') as f:
+    with open(f"images/antennes_{0 if antennes is not False else random.randint(1,3)}.svg", 'r') as f:
         antennes_data = f.read()
     antennes_data = antennes_data.replace("#1d1d1b",random.choice(list(attributs['couleurs'].values())))
     with open("images/temp/antennes.svg", "wb") as f:

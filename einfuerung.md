@@ -3,7 +3,7 @@ title: Einfuerung workshop SQL
 layout: tutorial_de
 dbFile: data/aliens_de.db
 ---
-<h1>Accio Query!</h1>
+<h1>Galaxy SQL!</h1>
 <div class="warning">
 Dies ist eine Wiederholung der Informationen, die du bereits während der Präsentation gehört hast. Du musst also nicht alles nochmals genau lesen und kannst mit den <a href="workshop.html">workshop</a> anfangen.
 <a href="workshop.html" class="button-link center"> Workshop anfangen </a>
@@ -17,7 +17,7 @@ Heute lernen wir, Datenbanken mit einem sehr nützlichen Tool zu verwalten: SQL 
 
 Dank der Entwicklung der digitalen Welt ist es einfach, viele Daten zu speichern. Aber es ist manchmal nicht so einfach, sie gut zu organisieren, um sie später leicht wiederzufinden, dabei hilft uns SQL. Wie du sehen wirst, wird das Ergebnis deiner Abfragen in Form einer Tabelle angezeigt, denn schließlich sind Datenbanken nur große Tabellen! Trotzdem sind sie manchmal zu groß, um die Informationen *Zeile per Zeile* zu durchsuchen. Zum Glück sind Computer sehr gut in dieser Art von Aufgabe. Aber man muss immer noch die Sprache der Computer sprechen können, um sie höflich zu bitten, die langwierige Arbeit der Informationsrecherche zu erledigen. Für Datenbanken heisst diese sprache SQL.
 
-Normalerweise muss man Programme installieren und ein Datenbank laden, um SQL verwenden zu können, aber diese Website wurde erstellt, um SQL direkt in deinem Browser zu verwenden auf eine Datenbank über das [Harry Potter Universum](#datenbankInfo). Um eine SQL-Anfrage [^1] zu stellen, musst du also deinen Befehl in einen Codeblock wie unten eingeben und auf "RUN" klicken (auf Deutsch heisst run starten oder ausführen).
+Normalerweise muss man Programme installieren und ein Datenbank laden, um SQL verwenden zu können [^1], aber diese Website wurde erstellt, um SQL direkt in deinem Browser zu verwenden auf eine Datenbank über fictionale Ausserirdische. Um eine SQL-Anfrage zu stellen, musst du also deinen Befehl in einen Codeblock wie unten eingeben und auf "RUN" klicken (auf Deutsch heisst run starten oder ausführen).
 
 [^1]: Genauer gesagt, wendet man [SQLite](https://sqlite.org/index.html), da SQL kein Programmiersprache im eigentlichen Sinne ist.
 
@@ -37,18 +37,7 @@ LIMIT 3"></sql-exercise>
 
 <h4>Informationen zu diese Datenbank:</h4> 
 
-* Die Daten kommen aus das open-source Projekt <a href="https://harrypotter.fandom.com/de/wiki/Harry-Potter-Lexikon:Hauptseite">Harry Potter Lexikon</a>
-* Die Daten sind standardisiert, sodass sie alle mit einem Großbuchstaben beginnen.
-* Die Ziffern 0 im Geburts- und Sterbejahr bedeuten, dass wir die Information nicht haben oder dass die betreffende Person nicht gestorben ist.
-* Daten wie Haarfarbe, Augenfarbe und Patronus wurden teilweise zufällig generiert.
-
-<div class="sideNote">
-<p>Wir werden feststellen, dass die Datenbank nicht überall vollständig ist. Oft werden Daten von Menschen eingetragen, und es können Fehler auftreten. In unserem Fall haben wir die Seite <a href="https://harrypotter.fandom.com/de/wiki/Harry-Potter-Lexikon:Hauptseite">Harry Potter Lexikon</a> verwendet. Es ist auch die Aufgabe eine Programiererin, Daten zu "reinigen", um sie lesbar und konsistent zu machen! Es kann immer noch Fehler geben; du kannst sie uns gerne mitteilen, und wir werden die Datenbank entsprechend aktualisieren.</p>
-</div>
-
-<div class="warning">
-Um die Bücher/Filme nicht zu sehr zu verraten, wurden einige Informationen über die Charaktere geändert. In jedem Fall empfehlen wir dringend, die Bücher zu lesen, wenn du sie noch nicht gelesen hast!
-</div>
+* Die Daten sind zufällig generiert.
 
 <h4> Hilfe </h4>
 
