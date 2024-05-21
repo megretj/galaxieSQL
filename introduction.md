@@ -24,7 +24,7 @@ Comme pour tous les langages de programmation, il faut normalement installer des
   data-question="Ceci est un bloc de code interactif, tu peux éditer le code ci-dessous."
   data-comment="(Pour les pros: Shift+Enter est un raccourci clavier pour exécuter la commande au lieu de cliquer sur RUN)"
   data-default-text="SELECT *
-FROM personnages
+FROM alien_fr
 LIMIT 3"></sql-exercise>
 
 <div class="supplementary">
