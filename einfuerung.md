@@ -25,7 +25,7 @@ Normalerweise muss man Programme installieren und ein Datenbank laden, um SQL ve
   data-question="Dies ist ein interaktiver Codeblock. Du kannst den Code unten bearbeiten."
   data-comment=""
   data-default-text="SELECT *
-FROM Ausseriridsche
+FROM Ausserirdische
 LIMIT 3"></sql-exercise>
 
 <div class="supplementary">
