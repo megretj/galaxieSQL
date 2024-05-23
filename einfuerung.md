@@ -1,7 +1,7 @@
 ---
 title: Einfuerung workshop SQL
 layout: tutorial_de
-dbFile: data/aliens_de.db
+dbFile: data/alien_de.db
 ---
 <h1>Galaxy SQL!</h1>
 <div class="warning">
