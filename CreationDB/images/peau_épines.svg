@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 841.89"/>
+<svg id="Peau" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 841.89">
+  <g id="epine">
+    <polyline points="243.23 338.52 256.95 361.37 254.61 335.62" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="268.59 410.05 282.38 432.86 279.96 407.12" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="304.24 361.62 308.17 387.98 315.86 363.3" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="196.25 412.05 203.91 437.58 208 412.05" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="223.02 461.01 218.58 487.3 211.36 462.47" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="322.3 441.98 314.64 467.51 310.56 441.98" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="234.98 372.73 218.08 393.35 224.14 368.21" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="295.08 470.31 287.42 495.84 283.33 470.31" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="281.71 355.36 280.58 368.64 275.96 356.56" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="231.64 420.39 231.36 433.72 225.98 421.96" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="344.05 464.22 339.09 476.58 338.21 463.69" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="313.5 405.67 317.33 418.43 319.37 405.67" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="292.14 343.06 295.97 355.83 298.02 343.06" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="243.26 388.64 247.09 401.4 249.13 388.64" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="255 445.69 258.83 458.46 260.88 445.69" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="193.32 379.27 197.15 392.04 199.19 379.27" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="197.52 476.25 198.86 489.51 203.29 477.36" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="222.13 342.04 218.86 354.96 227.17 345.05" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="290.09 388.56 293.36 401.48 285.05 391.57" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+    <polyline points="334.94 426.4 338.21 439.32 329.9 429.41" style="fill: none; stroke: #1d1d1b; stroke-miterlimit: 10; stroke-width: 4px;"/>
+  </g>
+</svg>
