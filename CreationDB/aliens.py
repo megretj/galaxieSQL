@@ -1,6 +1,6 @@
 import pickle
 import random
-# from PIL import Image
+from PIL import Image
 import xml.etree.ElementTree as ET
 
 palette = {"bleu":(0,0,255), "gris":(100,100,100), "noir":(0,0,0),"violet":(128, 0, 255),
@@ -46,7 +46,7 @@ def generate_alien():
     n = random.randrange(0,len(list(attributs["couleurs"].keys())))
     couleur_peau = list(attributs["couleurs"].keys())[n]
     farbe_Haut = list(attributs["farben"].keys())[n]
-    antennes = random.randrange(0,1)
+    antennes = random.randrange(0,2)
     n = random.randrange(0,len(list(attributs["visage"])))
     visage = attributs["visage"][n]
     Gesicht = attributs["Gesicht"][n]
@@ -75,22 +75,25 @@ def change_colour(input_image,old_colour, new_colour):
                 new_image.append(item)
     # update image data
     input_image.putdata(new_image)
+    print(d)
     return input_image
 
-def draw_alien(nombre_membres=None, nombre_yeux = None, couleur_yeux = 'noirs', peau = None, couleur_peau = None, nombre_antennes = None, visage=None, tete=None, save=False, filename="alien.png"):
+def draw_alien(nombre_membres=None, nombre_yeux = 2, couleur_yeux = 'noirs', peau = None, couleur_peau = None, nombre_antennes = None, visage=None, tete=None, save=False, filename="alien.png"):
     # Aller chercher les attributs disponibles
     with open('attributs_aliens.pkl', 'rb') as f:
         attributs = pickle.load(f)
-    tete = change_colour(Image.open(f"images/tete_{tete if tete is not None else random.choice(attributs['tête'])}.png"),'green',attributs['couleurs'][couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))])
-    corps = change_colour(Image.open("images/corps.png"),'green',attributs['couleurs'][couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))])
-    visage = change_colour(Image.open(f"images/visage_{visage if visage is not None else random.choice(list(attributs['visage']))}.png"),(0,0,0),attributs['couleurs'][couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))])
-    yeux = change_colour(Image.open(f"images/yeux_{nombre_yeux if nombre_yeux is not None else random.randint(1,3)}.png"),(0,0,0),attributs['couleurs'][couleur_yeux])
-    antennes = change_colour(Image.open(f"images/antennes_{nombre_antennes if nombre_antennes<3 and nombre_antennes>=0 else random.randint(1,2)}.png"),(0,0,0),random.choice(list(palette.values())))
+    tete = change_colour(Image.open(f"images/tete_{tete if tete is not None else random.choice(attributs['tête'])}.svg"),'green',attributs['couleurs'][couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))])
+    corps = change_colour(Image.open("images/corps.svg"),'green',attributs['couleurs'][couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))])
+    visage = change_colour(Image.open(f"images/visage_{visage if visage is not None else random.choice(list(attributs['visage']))}.svg"),'green',attributs['couleurs'][couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))])
+
+    #visage = change_colour(Image.open(f"images/visage_{visage if visage is not None else random.choice(list(attributs['visage']))}.svg"),'green',attributs['couleurs'][couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))])
+    yeux = change_colour(Image.open(f"images/yeux_{nombre_yeux if nombre_yeux is not None else random.randint(1,3)}.svg"),(0,0,0),attributs['couleurs'][couleur_yeux])
+    antennes = change_colour(Image.open(f"images/antennes_{nombre_antennes if nombre_antennes<3 and nombre_antennes>=0 else random.randint(1,2)}.svg"),(0,0,0),random.choice(list(palette.values())))
     membres = change_colour(Image.open(f"images/membres_{random.randint(1,3)}.png"),(0,0,0),random.choice(list(palette.values())))
     new_img = Image.alpha_composite(membres,Image.alpha_composite(antennes,Image.alpha_composite(corps,Image.alpha_composite(tete, Image.alpha_composite(yeux, visage)))))
     new_img = new_img.convert('RGB')
     if save:
-        new_img.save(f"images/{filename}","PNG")
+        new_img.save(f"images/{filename}","svg")
     return new_img.convert('RGB')
 
 def merge_svg_files(svg_file1, svg_file2):
@@ -112,7 +115,9 @@ def merge_svg_files(svg_file1, svg_file2):
         f.write(ET.tostring(root1, encoding='utf-8'))
     return "images/temp/output.svg"
 
-def draw_alien_svg(nombre_membres=None, nombre_yeux = None, couleur_yeux = None, peau = None, couleur_peau = None, antennes = False, visage=None, tete=None, save=False, filename="images/exemples/alien.svg"):
+
+    #<---- j'ai remplacé 0 if antennes par antennes if
+def dessine_alien(nombre_membres=None, nombre_yeux = None, couleur_yeux = None, peau = None, couleur_peau = None, antennes = False, visage=None, tete=None, save=False, filename="images/exemples/alien.svg"):
     with open('attributs_aliens.pkl', 'rb') as f:
         attributs = pickle.load(f)
     couleur_peau = couleur_peau if couleur_peau is not None else random.choice(list(attributs['couleurs'].keys()))
@@ -133,16 +138,17 @@ def draw_alien_svg(nombre_membres=None, nombre_yeux = None, couleur_yeux = None,
         f.write(visage_data.encode())
     with open(f"images/yeux_{nombre_yeux if nombre_yeux is not None else random.randint(1,3)}.svg", 'r') as f:
         yeux_data = f.read()
-    yeux_data = yeux_data.replace("#1d1d1b",attributs['couleurs'][couleur_yeux if couleur_yeux is not None else random.choice(list(attributs['couleurs'].keys()))])
+    yeux_data = yeux_data.replace("#66b32e",attributs['couleurs'][couleur_yeux if couleur_yeux is not None else random.choice(list(attributs['couleurs'].keys()))])
     with open("images/temp/yeux.svg", "wb") as f:
         f.write(yeux_data.encode())
-    with open(f"images/antennes_{0 if antennes is not False else random.randint(1,3)}.svg", 'r') as f:
-        antennes_data = f.read()
+    with open(f"images/antennes_{antennes if antennes is not False else random.randint(1,3)}.svg", 'r') as f:
+        antennes_data = f.read()  #<---- j'ai remplacé "0 if antennes..." par "antennes if antennes..."
     antennes_data = antennes_data.replace("#1d1d1b",random.choice(list(attributs['couleurs'].values())))
     with open("images/temp/antennes.svg", "wb") as f:
         f.write(antennes_data.encode())
     with open(f"images/membres_{nombre_membres if nombre_membres is not None else random.choice([2,4,6])}.svg", 'r') as f:
         membres_data = f.read()
+    membres_data = membres_data.replace("#66b32e",attributs['couleurs'][couleur_peau])
     with open("images/temp/membres.svg", "wb") as f:
         f.write(membres_data.encode())
     with open(f"images/peau_{peau if peau is not None else random.choice(attributs['peau'])}.svg", 'r') as f:
@@ -151,7 +157,7 @@ def draw_alien_svg(nombre_membres=None, nombre_yeux = None, couleur_yeux = None,
         f.write(peau_data.encode())
     new_img = merge_svg_files("images/temp/membres.svg",merge_svg_files("images/temp/antennes.svg",merge_svg_files("images/temp/tete.svg",merge_svg_files("images/temp/corps.svg", merge_svg_files("images/temp/yeux.svg", merge_svg_files("images/temp/peau.svg","images/temp/visage.svg"))))))
     with open(new_img, 'r') as f:
-            svg_data = f.read()
+        svg_data = f.read()
     if save:
         with open(f"{filename}", 'wb') as f:
             f.write(svg_data.encode())
