@@ -25,7 +25,7 @@ Comme pour tous les langages de programmation, il faut normalement installer des
   data-comment="(Pour les pros: Shift+Enter est un raccourci clavier pour exécuter la commande au lieu de cliquer sur RUN)"
   data-default-text="SELECT *
 FROM extraterrestres
-LIMIT 3"></sql-exercise>
+LIMIT 5"></sql-exercise>
 
 <div class="supplementary">
 La particularité de SQL est que la syntaxe (les règles d'écriture) est assez libre. En particulier, on prend l'habitude d'écrire des mots clés comme <code>SELECT</code> en majuscule mais SQLite ne fait pas la différence entre majuscules et minuscule. On peut aussi ajouter des retours à la ligne et des tabulations à souhait. Pour une meilleure lisibilité, on garde souvent la syntaxe proposée dans cet atelier. Il est par contre important de suivre l'ordre dans laquelle on écrit les commandes (SELECT (MIN/MAX/COUNT/SUM) puis FROM (puis JOIN) puis WHERE/LIMIT/LIKE etc...). Il faut aussi faire attention à l'orthographe des éléments de la base de données.
