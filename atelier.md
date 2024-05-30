@@ -18,7 +18,7 @@ Votre tache sera de répertorier les différents types d’aliens observable. Po
 ## Une requête SQL
 Pour accéder à la base de données, il faut utiliser des commandes en langage SQL. Ça ressemble à ça :
 <sql-exercise
-  data-question=Du code SQL"
+  data-question="Du code SQL"
   data-default-text="
   SELECT *
   FROM extraterrestres
