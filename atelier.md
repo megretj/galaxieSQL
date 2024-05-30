@@ -19,12 +19,22 @@ Votre tache sera de répertorier les différents types d’aliens observable. Po
 Pour accéder à la base de données, il faut utiliser des commandes en langage SQL. Ça ressemble à ça :
 <sql-exercise
   data-question="Du code SQL"
+  data-comment=""
   data-default-text="
   SELECT *
   FROM extraterrestres
-  LIMITE10">
-  
+  LIMITE 10">
   </sql-exercise>
+  
+  <sql-exercise
+  data-question="4. Écris les 3 lignes de code dans le bon ordre pour afficher tous les personnages féminins grâce à <code>WHERE</code>"
+  data-comment=""
+  data-default-text="SELECT ..."
+  data-solution="
+SELECT * 
+FROM personnages 
+WHERE genre='Femme' "
+  ></sql-exercise>
 
 
 
