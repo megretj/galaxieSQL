@@ -22,7 +22,7 @@ Pour accéder à la base de données, il faut utiliser des commandes en langage 
   data-default-text="
   SELECT *
   FROM extraterrestres
-  LIMITE10"
+  LIMITE10">
   
   </sql-exercise>
 
