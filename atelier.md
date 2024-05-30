@@ -89,6 +89,7 @@ SELECT *
 /*On indique quelle base de données */ 
 FROM extraterrestres
 WHERE nom= "RODGERSIA_8121"
+"
  data-solution=""
 ></sql-exercise>
 
