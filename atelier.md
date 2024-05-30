@@ -20,8 +20,7 @@ Pour accéder à la base de données, il faut utiliser des commandes en langage 
 <sql-exercise
   data-question="Du code SQL"
   data-comment="Appuie sur Run pour voir ce qui se passe."
-  data-default-text="
-  SELECT *
+  data-default-text="SELECT *
   FROM extraterrestres
   LIMITE 10">
   </sql-exercise>
