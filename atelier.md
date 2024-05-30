@@ -19,24 +19,66 @@ Votre tache sera de répertorier les différents types d’aliens observable. Po
 Pour accéder à la base de données, il faut utiliser des commandes en langage SQL. Ça ressemble à ça :
 <sql-exercise
   data-question="Du code SQL"
-  data-comment=""
+  data-comment="Appuie sur Run pour voir ce qui se passe."
   data-default-text="
   SELECT *
   FROM extraterrestres
   LIMITE 10">
   </sql-exercise>
   
-  <sql-exercise
-  data-question="4. Écris les 3 lignes de code dans le bon ordre pour afficher tous les personnages féminins grâce à <code>WHERE</code>"
-  data-comment=""
-  data-default-text="SELECT ..."
-  data-solution="
-SELECT * 
-FROM personnages 
-WHERE genre='Femme' "
-  ></sql-exercise>
+Le programme affiche un tableau. Voici les différentes catégories que les scientifiques observent :
 
-
+<table>
+ <tr>
+  <td>nom</td>
+  <td>La personne qui
+  découvre un nouvel alien peut lui donner un nom</td>
+ </tr>
+ <tr>
+  <td >planète</td>
+  <td>La planète sur lequel a été observé l’alien</td>
+ </tr>
+ <tr>
+  <td>nombre_membres</td>
+  <td>Le nombre de pattes d’un alien</td>
+ </tr>
+ <tr>
+  <td>taille</td>
+  <td>La taille d’un  alien</td>
+ </tr>
+ <tr>
+   <td>nombre_yeux</td>
+  <td>Le nombre d’yeux de l’alien</td>
+ </tr>
+ <tr>
+  <td>couleur_yeux</td>
+  <td>La couleur de leur yeux</td>
+ </tr>
+ <tr>
+  <td>peau</td>
+  <td>On n’écrit rien si la peau d’un alien est lisse et sinon on décrit sa peau</td>
+ </tr>
+<tr>
+<td>couleur_peau</td>
+  <td>La couleur globalede l’alien </td>
+ </tr>
+ <tr >
+  <td>antennes</td>
+  <td>Attention! ici on écrit 1 si l’alien a des antennes et 0 sinon. Un alien avec 72 antennes sera noté !</td>
+ </tr>
+ <tr >
+  <td >visage</td>
+  <td >On décrit sil’alien à un signe distinctif sur son visage </td>
+ </tr>
+ <tr>
+  <td > tête</td>
+  <td >La forme de sa tête</td>
+ </tr>
+ <tr>
+  <td> pizza </td>
+  <td> En observant les habitudes alimentaires des aliens, on peut déterminer sa pizza préférée.</td>
+ </tr>
+</table>
 
 
 
