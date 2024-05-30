@@ -85,11 +85,11 @@ Le SQL peut se lire comme une phrase. (Avec quelques mots en anglais).
   data-question="Si on veut chercher l'alien " RODGERSIA_8121", il faut écrire:"
   data-comment=""
   data-default-text="/*On sélectionne toute les variables */ 
-SELECT *  
-/*On indique quelle base de données */ 
-FROM extraterrestres
-WHERE nom= "RODGERSIA_8121"
-"
+                      SELECT *  
+                      /*On indique quelle base de données */ 
+                      FROM extraterrestres
+                      WHERE nom= "RODGERSIA_8121"
+                      "
  data-solution=""
 ></sql-exercise>
 
