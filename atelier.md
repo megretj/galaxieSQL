@@ -79,7 +79,22 @@ Le programme affiche un tableau. Voici les différentes catégories que les scie
  </tr>
 </table>
 
+## Chercher des infos dans la base de données :
+Le SQL peut se lire comme une phrase. (Avec quelques mots en anglais). 
+<sql-exercise
+  data-question="Si on veut chercher l'alien " RODGERSIA_8121", il faut écrire:"
+  data-comment=""
+  data-default-text="/*On sélectionne toute les variables */ 
+SELECT *  
+/*On indique quelle base de données */ 
+FROM extraterrestres
+WHERE nom= "RODGERSIA_8121"
+ data-solution=""
+></sql-exercise>
 
+
+
+# Save au cas OU
 
 Ceci est un <span class="keyword">mot clé</span> et ça du <code class=keyword>texte formaté comme du code important</code> ou du <code>code moins important</code>.
 
