@@ -6,11 +6,29 @@ dbFile: data/alien_fr.db
 
 # Exploration spatiale
 
-Lorem ipsum nan je vais vous épargner ça.
+On a découvert la vie extraterrestre ! Le nouveau télescope SPS (space photographer system) permet d’observer la surface de planète extra-galactique.
+<br>Jusqu’à maintenant, les scientifiques ont découvert trois exo-planète habitées : 
+<li>Céplusplus</li>
+<li>Scratchon</li>
+<li>Pythos</li>
+Votre tache sera de répertorier les différents types d’aliens observable. Pour cela, tous les scientifiques de la terre mettent en place une base de données qui regroupent tous les aliens observés.
 
 <a name="base"></a>
 
 ## Une requête SQL
+Pour accéder à la base de données, il faut utiliser des commandes en langage SQL. Ça ressemble à ça :
+<sql-exercise
+  data-question=Du code SQL"
+  data-default-text="
+  SELECT *
+  FROM extraterrestres
+  LIMITE10"
+  
+  </sql-exercise>
+
+
+
+
 
 Ceci est un <span class="keyword">mot clé</span> et ça du <code class=keyword>texte formaté comme du code important</code> ou du <code>code moins important</code>.
 
