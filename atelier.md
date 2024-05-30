@@ -22,7 +22,7 @@ Pour accéder à la base de données, il faut utiliser des commandes en langage 
   data-comment="Appuie sur Run pour voir ce qui se passe."
   data-default-text="SELECT *
   FROM extraterrestres
-  LIMITE 10">
+  LIMIT 10">
   </sql-exercise>
   
 Le programme affiche un tableau. Voici les différentes catégories que les scientifiques observent :
