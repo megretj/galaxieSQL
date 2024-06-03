@@ -6,12 +6,12 @@ dbFile: data/alien_fr.db
 
 # Exploration spatiale
 
-On a découvert la vie extraterrestre ! Le nouveau télescope SPS (space photographer system) permet d’observer la surface de planète extra-galactique.
-<br>Jusqu’à maintenant, les scientifiques ont découvert trois exo-planète habitées : 
+On a découvert une forme de vie extraterrestre ! Le nouveau télescope SPS (space photographer system) permet d’observer la surface de planètes extra-galactiques.
+<br>Jusqu’à maintenant, les scientifiques ont découvert trois exo-planètes habitées : 
 <li>Céplusplus</li>
 <li>Scratchon</li>
 <li>Pythos</li>
-Votre tache sera de répertorier les différents types d’aliens observable. Pour cela, tous les scientifiques de la terre mettent en place une base de données qui regroupent tous les aliens observés.
+Votre tâche sera de répertorier les différents types d’aliens observables. Pour cela, toutes les scientifiques de la terre mettent en place une base de données qui regroupe les aliens observés.
 
 <a name="base"></a>
 
@@ -25,7 +25,7 @@ Pour accéder à la base de données, il faut utiliser des commandes en langage 
   LIMIT 10">
   </sql-exercise>
   
-Le programme affiche un tableau. Voici les différentes catégories que les scientifiques observent :
+Le programme affiche les extraterrestres sous la forme d'un tableau. Voici les différentes catégories que les scientifiques observent :
 
 <table>
  <tr>
@@ -35,15 +35,15 @@ Le programme affiche un tableau. Voici les différentes catégories que les scie
  </tr>
  <tr>
   <td >planète</td>
-  <td>La planète sur lequel a été observé l’alien</td>
+  <td>La planète sur laquelle a été observé l’alien</td>
  </tr>
  <tr>
   <td>nombre_membres</td>
-  <td>Le nombre de pattes d’un alien</td>
+  <td>Le nombre de pattes de l'alien</td>
  </tr>
  <tr>
   <td>taille</td>
-  <td>La taille d’un  alien</td>
+  <td>La taille de l'alien</td>
  </tr>
  <tr>
    <td>nombre_yeux</td>
@@ -51,23 +51,23 @@ Le programme affiche un tableau. Voici les différentes catégories que les scie
  </tr>
  <tr>
   <td>couleur_yeux</td>
-  <td>La couleur de leur yeux</td>
+  <td>La couleur de ses yeux</td>
  </tr>
  <tr>
   <td>peau</td>
-  <td>On n’écrit rien si la peau d’un alien est lisse et sinon on décrit sa peau</td>
+  <td>On n’écrit rien si la peau de l'alien est lisse, sinon on décrit sa peau</td>
  </tr>
 <tr>
 <td>couleur_peau</td>
-  <td>La couleur globalede l’alien </td>
+  <td>La couleur globale de l’alien </td>
  </tr>
  <tr >
   <td>antennes</td>
-  <td>Attention! ici on écrit 1 si l’alien a des antennes et 0 sinon. Un alien avec 72 antennes sera noté !</td>
+  <td>Attention! ici on écrit 1 si l’alien a des antennes et 0 sinon. Un alien avec 72 antennes sera noté 1 </td>
  </tr>
  <tr >
   <td >visage</td>
-  <td >On décrit sil’alien à un signe distinctif sur son visage </td>
+  <td >On décrit si l’alien a un signe distinctif sur son visage </td>
  </tr>
  <tr>
   <td > tête</td>
@@ -85,7 +85,7 @@ Le SQL peut se lire comme une phrase. (Avec quelques mots en anglais).
   data-question="Si on veut chercher l'alien ' RODGERSIA_8121', il faut écrire:"
   data-default-text="/*On sélectionne toute les variables */ 
 SELECT *  
-/*On indique quelle base de données */ 
+/*On indique le nom de la base de données */ 
 FROM extraterrestres
 WHERE nom= 'RODGERSIA_8121'"
   data-solution="">
