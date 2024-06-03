@@ -116,7 +116,7 @@ Je peux aussi chercher des aliens en connaissant plusieurs caractéristiques.
 ## Exercice
 J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à trouver son nom ! 
 
-<img src="imgs/alien mystere.jpg" width="300">
+<img src="imgs/alien mystere.jpg" width="30">
 
 
 <sql-exercise
