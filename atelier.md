@@ -114,7 +114,7 @@ Je peux aussi chercher des aliens en connaissant plusieurs caractéristiques.
 </div>
 
 ## Exercice
-J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à retrouver son nom ! 
+J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à trouver son nom ! 
 
 <img src="imgs/alien mystere.jpg" width="300">
 
@@ -139,8 +139,8 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
 <img src="imgs/XXX_alien a ajouter.jpg" width="400">
 
 <sql-exercise
-  data-question="À toi de l'ajouter à la base de données !"
-  data-comment="Pour ce faire, tu vas devoir entrer toutes ses caractéristiques. J'ai commencé à le faire pour toi."
+  data-question="Entre toutes les caractéristiques connues de l'alien."
+  data-comment="J'ai commencé à faire pour toi."
   data-default-text="INSERT INTO extraterrestres
     VALUES ('...', 'pythos', 7, , );
   "></sql-exercise>
