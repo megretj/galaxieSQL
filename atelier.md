@@ -105,11 +105,30 @@ Je peux aussi chercher un alien en connaissant plusieurs de ses caractéristique
   data-comment="Par exemple, si je cherche un alien vert avec des antennes dont la tête est carrée, je vais taper la recherche suivante (à toi de compléter):"
   data-default-text="
   SELECT *  
-  FROM extraterrestres
-  WHERE couleur_peau = '...'
-  AND tête = '...'
-  AND antennes = 1
+    FROM extraterrestres
+    WHERE couleur_peau = '...'
+    AND tête = '...'
+    AND antennes = 1
   "></sql-exercise>
+
+<div class="sideNote">
+<p>Tu remarqueras que les caractéristiques des aliens qui sont du texte doivent être écrites entre des 'simples guillements' alors que les valeurs qui sont des nombres n'en ont pas besoin. </p>
+
+## Exercice
+J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à retrouver son nom ! 
+
+<sql-exercise
+  data-question="Aide-moi à le retrouver !"
+  data-comment=""
+  data-default-text="SELECT *  
+    FROM extraterrestres
+    WHERE ... "></sql-exercise>
+
+<input-feedback 
+data-title="Exercice sous forme de texte"
+data-solution="la solution"
+success-message="Bravo"
+failure-message="Ce n'est malheureusement pas ça..."></input-feedback>
 
 # Save au cas OU
 
