@@ -168,9 +168,9 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
 # À la conquête de l'espace !
 C'est maintenant à toi d'explorer ! 
 
-Dans la salle, tu trouveras 3 photos prises sur les planètes Céplusplus, Scratchon et Pythos. Sur celles-ci, nous y voyons plein d'aliens différents. Parmi ces aliens, certains sont déja recensés dans notre base de données. D'autres ne le sont pas. Ton travail, ainsi que celui des autres filles de l'atelier sera de trouver le nom des extraterrestres des posters et d'ajouter à la base de données ceux qui n'y sont pas encore. 
+Dans la salle, tu trouveras 3 photos prises sur les planètes Céplusplus, Scratchon et Pythos. Sur celles-ci, nous y voyons plein d'aliens différents. Parmi ces aliens, certains sont déjà recensés dans notre base de données. D'autres ne le sont pas. Ton travail, ainsi que celui des autres filles de l'atelier, sera de trouver le nom des extraterrestres des posters et d'ajouter à la base de données ceux qui n'y sont pas encore. 
 Choisis un alien, de n'importe quelle planète. Pour montrer sur lequel tu travailles, écris ton nom sur un post-it et colle-le à côté de l'alien. 
-Cherche-le dans la base de données. Si tu le trouves, écris son nom sur le post-it. Si l'alien n'est pas encore recensé, ajoute-le avec le nom que tu voudras et toute les caractéristiques que tu connais. Écris ensuite son nouveau nom sur le post-it pour indiquer qu'il fait maintenant parti de la base de données.
+Cherche l'extraterrestre choisi dans la base de données. Si tu le trouves, écris son nom sur le post-it. Par contre, s'il n'est pas encore recensé, ajoute-le avec le nom que tu voudras et toute les caractéristiques que tu observes. Écris ensuite son nouveau nom sur le post-it pour indiquer qu'il fait maintenant parti de la base de données.
 
 Bon travail ! 
 
