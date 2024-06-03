@@ -136,7 +136,7 @@ failure-message="Ce n'est malheureusement pas ça :( "></input-feedback>
 
 Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que personne n'avait vu avant toi. Tu as juste eu le temps de le prendre en photo. En tant que bonne scientifique, tu vas devoir l'ajouter à la base de données. Comme il s'agit de ta découverte, tu vas pouvoir l'appeler comme tu veux !
 
-<img src="imgs/XXX_alien a ajouter.jpg" width="300">
+<img src="imgs/XXX_alien a ajouter.jpg" width="400">
 
 <sql-exercise
   data-question="À toi de l'ajouter à la base de données !"
