@@ -141,7 +141,8 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
   data-question="À toi de l'ajouter à la base de données !"
   data-comment="Pour ce faire, tu vas devoir entrer toutes ses caractéristiques. J'ai commencé à le faire pour toi."
   data-default-text="INSERT INTO extraterrestres
-    VALUES ('...', 'pythos', 7, , );></sql-exercise>
+    VALUES ('...', 'pythos', 7, , );
+  "></sql-exercise>
 
 En l'observant, tu as aussi remarqué qu'il était très friand de pizza aux courgettes radioactives.
 
