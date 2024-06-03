@@ -202,6 +202,47 @@ Bon travail !
             '...' );
   "></sql-exercise>
 
+# Générer des images d'alien
+
+Nous allons maintenant apprendre à générer des dessins d'aliens en fixant certaines caractéristiques précises. 
+
+## Exemple
+Tu veux dessiner un alien à partir de la description que tu as reçue.
+Ton amie Fabrizia a croisé un extraterrestre ce matin, malheureusement, elle n'a pas réussi à le prendre en photo. Elle te le décrit: 
+"Il était orange à plumes, il avait une trompe et 2 bras ainsi que 7 grands yeux noirs. Malheureusement je ne me souviens plus de la forme de sa tête."
+Les attributs que tu ne connais pas de ton alien seront choisi aléatoirement.
+
+Rends toi sur le bureau de ton ordinateur, dans le dossier "cosmic data base FR" ouvre le fichier "generation alien.py" et entre les attributs que tu souhaites au bon endroit dans le code.
+Une image de ton alien sera générée dans le dossier. Tu pourras la donner à Fabrizia, ça lui fera un joli souvenir. 
+
+## Exercice
+La chercheuse Lou a ajouté un alien dans la base de données, il s'appelle "ARA LIA_8811". 
+Par contre, personne n'a encore croisé cet alien à la base. 
+Nous allons demander aux extraterrestres que nous croisons aujourd'hui s'ils l'ont déjà vu. 
+Pour cela, il va falloir que tu le cherche dans la base de données et que tu trouves ses caractéristiques.
+Génère ensuite un portrait robot de ARA LIA_8811 afin de pouvoir le montrer aux autres aliens. 
+
+<sql-exercise
+  data-question="Pour rechercher les caractéristiques de l'alien"
+  data-comment=""
+  data-default-text="SELECT *
+    FROM extraterrestres
+    WHERE nom='...'
+  "></sql-exercise>
+
+# Bonus
+
+Les scientifiques n'ont pas nommés les extraterrestres de manière aléatoire. Depuis le début, le nombre à quatre chiffres dans le nom de chaque alien a une signification précise.  
+
+<sql-exercise
+  data-question="Arrives-tu à comprendre comment est choisi le nombre dans le nom de chaque alien"
+  data-comment="Sors une liste d'une quinzaine d'aliens et essaie de comprendre la logique."
+  data-default-text="SELECT *
+    FROM extraterrestres
+    LIMIT 15
+  "></sql-exercise>
+
+
 # Save au cas OU
 
 Ceci est un <span class="keyword">mot clé</span> et ça du <code class=keyword>texte formaté comme du code important</code> ou du <code>code moins important</code>.
