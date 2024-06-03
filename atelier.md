@@ -116,7 +116,7 @@ Je peux aussi chercher des aliens en connaissant plusieurs caractéristiques.
 ## Exercice
 J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à trouver son nom ! 
 
-<img src="imgs/alien mystere.jpg" width="30">
+<img src="imgs/alien mystere.jpg" width="300">
 
 
 <sql-exercise
@@ -140,17 +140,19 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
 
 <sql-exercise
   data-question="Entre toutes les caractéristiques connues de l'alien."
-  data-comment="J'ai commencé à faire pour toi."
+  data-comment="J'ai commencé à le faire pour toi. Mets des ??? pour les caractéristiques que tu ne connais pas."
   data-default-text="INSERT INTO extraterrestres
-    VALUES ('...', 'pythos', 7, , );
+    VALUES ('le nom que tu veux', 'pythos', 7, '???' , 4 , 'vert', '...', '...', '...', '...', '...', '...' );
   "></sql-exercise>
 
 
-<input-feedback 
-data-title="Écris son nom ici:"
-data-solution="TRILLIUM_3980"
-success-message="Bon travail !"
-failure-message="Ce n'est malheureusement pas ça..."></input-feedback>
+<sql-exercise
+  data-question="Vérifie que ton alien a bien été ajouté à la base de données."
+  data-comment=""
+  data-default-text="SELECT *
+    FROM extraterrestres
+    WHERE nom='...'
+  "></sql-exercise>
 
 # Save au cas OU
 
