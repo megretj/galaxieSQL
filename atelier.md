@@ -129,7 +129,7 @@ J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à retrouver son nom 
 data-title="Écris son nom ici:"
 data-solution="TRILLIUM_3980"
 success-message="Bon travail !" 
-failure-message="Ce n'est malheureusement pas ça..."></input-feedback>
+failure-message="Ce n'est malheureusement pas ça :( "></input-feedback>
 
 # Ajouter des aliens à la base de donnée
 
@@ -144,7 +144,6 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
     VALUES ('...', 'pythos', 7, , );
   "></sql-exercise>
 
-En l'observant, tu as aussi remarqué qu'il était très friand de pizza aux courgettes radioactives.
 
 <input-feedback 
 data-title="Écris son nom ici:"
