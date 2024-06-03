@@ -128,15 +128,9 @@ J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à trouver son nom !
 
 <input-feedback 
 data-title="Écris son nom ici:"
-data-solution="TRILLIUM_3980"
+data-solution="TRILLIUM"
 success-message="Bon travail !"
 failure-message="Ce n'est malheureusement pas ça "></input-feedback>
-
-<input-feedback 
-data-title="Écris son nom ici:"
-data-solution="TRILLIUM_3980"
-success-message="Bon travail !" 
-failure-message="Ce n'est malheureusement pas ça :( "></input-feedback>
 
 # Ajouter des aliens à la base de donnée
 
@@ -173,8 +167,39 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
 
 # À la conquête de l'espace !
 C'est maintenant à toi d'explorer ! 
-Dans la salle, tu trouveras 3 photos prises sur les planètes 
+Dans la salle, tu trouveras 3 photos prises sur les planètes Céplusplus, Scratchon et Pythos. Sur celles-ci, nous y voyons plein d'aliens différents. Parmi ces aliens, certains sont déja recensés dans notre base de données. D'autres ne le sont pas. 
+Ton travail, ainsi que celui des autres filles de l'atelier sera de trouver le nom des extraterrestres des posters et d'ajouter à la base de données ceux qui n'y sont pas encore. 
+Choisis un alien, de n'importe quelle planète. Pour montrer sur lequel tu travailles, écris ton nom sur un post-it et colle-le à côté de l'alien. 
+Cherche-le dans la base de données. Si tu le trouves, écris son nom sur le post-it. Si l'alien n'est pas encore recensé, ajoute-le avec le nom que tu voudras et toute les caractéristiques que tu connais. Écris ensuite son nouveau nom sur le post-it pour indiquer qu'il fait maintenant parti de la base de données.
+Bon travail ! 
 
+Pour rechercher un alien:
+<sql-exercise
+  data-question="Vérifie que ton alien a bien été ajouté à la base de données."
+  data-comment=""
+  data-default-text="SELECT *
+    FROM extraterrestres
+    WHERE nom='...'
+  "></sql-exercise>
+
+Pour ajouter un alien:
+<sql-exercise
+  data-question="Entre toutes les caractéristiques connues de l'alien."
+  data-comment="J'ai commencé à le faire pour toi. Mets des ??? pour les caractéristiques que tu ne connais pas."
+  data-default-text="INSERT INTO extraterrestres
+    VALUES ('le nom que tu veux',
+            'sa planète', 
+            '...', 
+            '...', 
+            '...', 
+            '...',
+            '...',  
+            '...', 
+            '...',
+            '...', 
+            '...', 
+            '...' );
+  "></sql-exercise>
 
 # Save au cas OU
 
