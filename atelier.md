@@ -129,7 +129,7 @@ J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à retrouver son nom 
 
 <input-feedback 
 data-title="Écris son nom ici:"
-data-solution="la solution"
+data-solution="TRILLIUM_3980"
 success-message="Bon travail !"
 failure-message="Ce n'est malheureusement pas ça..."></input-feedback>
 
