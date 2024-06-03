@@ -164,7 +164,16 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
     FROM extraterrestres
     WHERE nom='...'
   "></sql-exercise>
-
+  
+Il est toujours possible de modifier la base de donnée.
+<sql-exercise
+  data-question="Par exemple, tu peux changer la pizza préférée ainsi:"
+  data-comment=""
+  data-default-text="UPDATE extraterrestres
+    SET pizza= 'pizza au sugus'
+    WHERE nom='le nom que tu veux'
+  "></sql-exercise>
+  
 # À la conquête de l'espace !
 C'est maintenant à toi d'explorer ! 
 
