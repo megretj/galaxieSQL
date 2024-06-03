@@ -174,19 +174,19 @@ Cherche l'extraterrestre choisi dans la base de données. Si tu le trouves, écr
 
 Bon travail ! 
 
-Pour rechercher un alien:
+
 <sql-exercise
-  data-question="Vérifie que ton alien a bien été ajouté à la base de données."
+  data-question="Pour rechercher un alien:"
   data-comment=""
   data-default-text="SELECT *
     FROM extraterrestres
     WHERE nom='...'
   "></sql-exercise>
 
-Pour ajouter un alien:
+
 <sql-exercise
-  data-question="Entre toutes les caractéristiques connues de l'alien."
-  data-comment="J'ai commencé à le faire pour toi. Mets des ??? pour les caractéristiques que tu ne connais pas."
+  data-question="Pour ajouter un alien:"
+  data-comment=""
   data-default-text="INSERT INTO extraterrestres
     VALUES ('le nom que tu veux',
             'sa planète', 
