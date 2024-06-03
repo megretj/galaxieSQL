@@ -79,7 +79,7 @@ Le programme affiche les extraterrestres sous la forme d'un tableau. Voici les d
  </tr>
 </table>
 
-# Chercher des infos dans la base de données :
+# Chercher des informations dans la base de données :
 Le SQL peut se lire comme une phrase. (Avec quelques mots en anglais). 
 <sql-exercise
   data-question="Si on veut avoir des informations sur l'alien ' RODGERSIA_8121', il faut écrire:"
@@ -97,14 +97,12 @@ data-solution="triangulaire"
 success-message="Bravo !"
 failure-message="Regarde mieux !"></input-feedback>
 
-Je peux aussi chercher un alien en connaissant plusieurs de ses caractéristiques même si j'ai oublié son nom.
-
+Je peux aussi chercher des aliens en connaissant plusieurs caractéristiques.
 
 <sql-exercise
-  data-question="Rechercher un alien selon des caractéristiques"
-  data-comment="Par exemple, si je cherche un alien vert avec des antennes dont la tête est carrée, je vais taper la recherche suivante (à toi de compléter):"
-  data-default-text="
-  SELECT *  
+  data-question="Rechercher des aliens selon plusieurs caractéristiques"
+  data-comment="Par exemple, si je cherche tous les aliens verts avec des antennes dont la tête est carrée, je vais taper la recherche suivante (à toi de compléter les '...' ):"
+  data-default-text="SELECT *  
     FROM extraterrestres
     WHERE couleur_peau = '...'
     AND tête = '...'
@@ -126,6 +124,26 @@ J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à retrouver son nom 
   data-default-text="SELECT *  
     FROM extraterrestres
     WHERE ... "></sql-exercise>
+
+<input-feedback 
+data-title="Écris son nom ici:"
+data-solution="TRILLIUM_3980"
+success-message="Bon travail !"
+failure-message="Ce n'est malheureusement pas ça..."></input-feedback>
+
+# Ajouter des aliens à la base de donnée
+
+Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que personne n'avait vu avant toi. Tu as juste eu le temps de le prendre en photo. En tant que bonne scientifique, tu vas devoir l'ajouter à la base de données. Comme il s'agit de ta découverte, tu vas pouvoir l'appeler comme tu veux !
+
+<img src="imgs/XXX_alien a ajouter.jpg">
+
+<sql-exercise
+  data-question="À toi de l'ajouter à la base de données !"
+  data-comment="Pour ce faire, tu vas devoir entrer toutes ses caractéristiques. J'ai commencé à le faire pour toi."
+  data-default-text="INSERT INTO extraterrestres
+    VALUES ('...', 'pythos', 7, , );></sql-exercise>
+
+En l'observant, tu as aussi remarqué qu'il était très friand de pizza aux courgettes radioactives.
 
 <input-feedback 
 data-title="Écris son nom ici:"
