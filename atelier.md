@@ -113,6 +113,7 @@ Je peux aussi chercher un alien en connaissant plusieurs de ses caractéristique
 
 <div class="sideNote">
 <p>Tu remarqueras que les caractéristiques des aliens qui sont du texte doivent être écrites entre des 'simples guillements' alors que les valeurs qui sont des nombres n'en ont pas besoin. </p>
+</div>
 
 ## Exercice
 J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à retrouver son nom ! 
@@ -125,9 +126,9 @@ J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à retrouver son nom 
     WHERE ... "></sql-exercise>
 
 <input-feedback 
-data-title="Exercice sous forme de texte"
+data-title="Écris sont nom ici:"
 data-solution="la solution"
-success-message="Bravo"
+success-message="Bon travail !"
 failure-message="Ce n'est malheureusement pas ça..."></input-feedback>
 
 # Save au cas OU
