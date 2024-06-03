@@ -129,6 +129,12 @@ J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à trouver son nom !
 <input-feedback 
 data-title="Écris son nom ici:"
 data-solution="TRILLIUM_3980"
+success-message="Bon travail !"
+failure-message="Ce n'est malheureusement pas ça "></input-feedback>
+
+<input-feedback 
+data-title="Écris son nom ici:"
+data-solution="TRILLIUM_3980"
 success-message="Bon travail !" 
 failure-message="Ce n'est malheureusement pas ça :( "></input-feedback>
 
@@ -164,6 +170,11 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
     FROM extraterrestres
     WHERE nom='...'
   "></sql-exercise>
+
+# À la conquête de l'espace !
+C'est maintenant à toi d'explorer ! 
+Dans la salle, tu trouveras 3 photos prises sur les planètes 
+
 
 # Save au cas OU
 
