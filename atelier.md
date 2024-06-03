@@ -79,11 +79,11 @@ Le programme affiche les extraterrestres sous la forme d'un tableau. Voici les d
  </tr>
 </table>
 
-## Chercher des infos dans la base de données :
+# Chercher des infos dans la base de données :
 Le SQL peut se lire comme une phrase. (Avec quelques mots en anglais). 
 <sql-exercise
-  data-question="Si on veut chercher l'alien ' RODGERSIA_8121', il faut écrire:"
-  data-default-text="/*On sélectionne toute les variables */ 
+  data-question="Si on veut avoir des informations sur l'alien ' RODGERSIA_8121', il faut écrire:"
+  data-default-text="/*On sélectionne toutes les variables */ 
 SELECT *  
 /*On indique le nom de la base de données */ 
 FROM extraterrestres
@@ -91,6 +91,11 @@ WHERE nom= 'RODGERSIA_8121'"
   data-solution="">
   </sql-exercise>
 
+<input-feedback 
+data-title="La forme de la tête de l'alien RODGERSIA_8121 est"
+data-solution="triangulaire"
+success-message="Bravo"
+failure-message="Regarde mieux !"></input-feedback>
 
 
 # Save au cas OU
