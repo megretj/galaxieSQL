@@ -116,7 +116,7 @@ Je peux aussi chercher des aliens en connaissant plusieurs caractéristiques.
 ## Exercice
 J'ai retrouvé la photo de ce bel extraterrestre. Aide-moi à trouver son nom ! 
 
-<img src="imgs/alien mystere.jpg" width="300">
+<img src="imgs/alien mystere.jpg" width="150">
 
 
 <sql-exercise
@@ -136,7 +136,7 @@ failure-message="Ce n'est malheureusement pas ça :( "></input-feedback>
 
 Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que personne n'avait vu avant toi. Tu as juste eu le temps de le prendre en photo. En tant que bonne scientifique, tu vas devoir l'ajouter à la base de données. Comme il s'agit de ta découverte, tu vas pouvoir l'appeler comme tu veux !
 
-<img src="imgs/XXX_alien a ajouter.jpg" width="400">
+<img src="imgs/XXX_alien a ajouter.jpg" width="200">
 
 <sql-exercise
   data-question="Entre toutes les caractéristiques connues de l'alien."
