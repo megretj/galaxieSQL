@@ -94,9 +94,22 @@ WHERE nom= 'RODGERSIA_8121'"
 <input-feedback 
 data-title="La forme de la tête de l'alien RODGERSIA_8121 est"
 data-solution="triangulaire"
-success-message="Bravo"
+success-message="Bravo !"
 failure-message="Regarde mieux !"></input-feedback>
 
+Je peux aussi chercher un alien en connaissant plusieurs de ses caractéristiques même si j'ai oublié son nom.
+
+
+<sql-exercise
+  data-question="Rechercher un alien selon des caractéristiques"
+  data-comment="Par exemple, si je cherche un alien vert avec des antennes dont la tête est carrée, je vais taper la recherche suivante (à toi de compléter):"
+  data-default-text="
+  SELECT *  
+  FROM extraterrestres
+  WHERE couleur_peau = '...'
+  AND tête = '...'
+  AND antennes = 1
+  "></sql-exercise>
 
 # Save au cas OU
 
