@@ -148,12 +148,12 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
             '???', 
             4, 
             'vert',
-            '...',  
-            '...', 
-            '...',
-            '...', 
-            '...', 
-            '...' );
+            'la texture de sa peau',  
+            'la couleur de l'alien', 
+            'le nombre d'antennes',
+            'un signe distinctif sur le visage', 
+            'la forme de sa tête', 
+            'sa pizza préférée' );
   "></sql-exercise>
 
 
