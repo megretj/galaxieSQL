@@ -222,7 +222,7 @@ Ton amie Fabrizia a croisé un extraterrestre ce matin, malheureusement, elle n'
 Les attributs que tu ne connais pas de ton alien seront choisi aléatoirement.
 
 Rends toi sur le bureau de ton ordinateur, dans le dossier "cosmic data base FR" ouvre le fichier "generation alien.py" et entre les attributs que tu souhaites au bon endroit dans le code.
-Une image de ton alien sera générée dans le dossier. Tu pourras la donner à Fabrizia, ça lui fera un joli souvenir. 
+Une image de ton alien sera générée dans le dossier "Photo". Tu pourras la donner à Fabrizia, ça lui fera un joli souvenir. 
 
 ## Exercice
 La chercheuse Lou a ajouté un alien dans la base de données, il s'appelle "ARA LIA_8811". 
@@ -251,7 +251,7 @@ Les scientifiques n'ont pas nommés les extraterrestres de manière aléatoire. 
     LIMIT 15
   "></sql-exercise>
 
-
+<! --
 # Save au cas OU
 
 Ceci est un <span class="keyword">mot clé</span> et ça du <code class=keyword>texte formaté comme du code important</code> ou du <code>code moins important</code>.
@@ -279,3 +279,4 @@ data-title="Exercice sous forme de texte"
 data-solution="la solution"
 success-message="Bravo"
 failure-message="NUL"></input-feedback>
+-->
