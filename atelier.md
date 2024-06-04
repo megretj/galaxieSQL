@@ -140,7 +140,7 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
 
 <sql-exercise
   data-question="Entre toutes les caractéristiques connues de l'alien."
-  data-comment="J'ai commencé à le faire pour toi. Mets des ??? pour les caractéristiques que tu ne connais pas."
+  data-comment="J'ai commencé à le faire pour toi. Mets des ??? pour les caractéristiques que tu ne connais pas. Je l'ai fait pour la taille de l'alien que nous ne connaissons pas."
   data-default-text="INSERT INTO extraterrestres
     VALUES ('le nom que tu veux',
             'pythos', 
