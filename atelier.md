@@ -221,7 +221,7 @@ Ton amie Fabrizia a croisé un extraterrestre ce matin, malheureusement, elle n'
 "Il était orange à plumes, il avait une trompe et 2 bras ainsi que 7 grands yeux noirs. Malheureusement je ne me souviens plus de la forme de sa tête."
 Choisi les attributs que tu ne connais pas de ton alien.
 
-Rends toi sur le bureau de ton ordinateur, dans le dossier "cosmic data base" ouvre le fichier "Draw_alien.py" et entre les attributs que tu souhaites au bon endroit dans le code. Appuies ensuite sur le rond vert avec une fléche blanche et un alien devrait apparaître.
+Rends toi sur le bureau de ton ordinateur, dans le dossier "cosmic data base" ouvre le fichier "Draw_alien.py" et entre les attributs que tu souhaites au bon endroit dans le code. Appuies ensuite sur le rond vert avec une fléche blanche ppour executer le programme et un alien devrait apparaître.
 
 Une image de ton alien est générée dans le dossier "Photo". Tu pourras la donner à Fabrizia, ça lui fera un joli souvenir. 
 
