@@ -6,7 +6,7 @@ dbFile: data/alien_fr.db
 
 # Exploration spatiale
 
-On a découvert une forme de vie extraterrestre ! Le nouveau télescope SPS (space photographer system) permet d’observer la surface de planètes extra-galactiques.
+On a découvert une forme de vie extraterrestre ! Le nouveau télescope SPS (Space Photographer System) permet d’observer la surface de planètes extra-galactiques.
 <br>Jusqu’à maintenant, les scientifiques ont découvert trois exo-planètes habitées : 
 <li>Céplusplus</li>
 <li>Scratchon</li>
