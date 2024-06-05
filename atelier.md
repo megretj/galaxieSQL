@@ -219,11 +219,11 @@ Nous allons maintenant apprendre à générer des dessins d'aliens en fixant cer
 Tu veux dessiner un alien à partir de la description que tu as reçue.
 Ton amie Fabrizia a croisé un extraterrestre ce matin, malheureusement, elle n'a pas réussi à le prendre en photo. Elle te le décrit: 
 "Il était orange à plumes, il avait une trompe et 2 bras ainsi que 7 grands yeux noirs. Malheureusement je ne me souviens plus de la forme de sa tête."
-Les attributs que tu ne connais pas de ton alien seront choisi aléatoirement.
+Choisi les attributs que tu ne connais pas de ton alien.
 
-Rends toi sur le bureau de ton ordinateur, dans le dossier "cosmic data base" ouvre le fichier "Draw_alien.py" et entre les attributs que tu souhaites au bon endroit dans le code. Appuies ensuite sur ![image](https://github.com/megretj/galaxieSQL/assets/166605724/6635b110-afaf-4b00-8659-92d30937aebe)
+Rends toi sur le bureau de ton ordinateur, dans le dossier "cosmic data base" ouvre le fichier "Draw_alien.py" et entre les attributs que tu souhaites au bon endroit dans le code. Appuies ensuite sur le rond vert avec une fléche blanche et un alien devrait apparaître.
 
-Une image de ton alien sera générée dans le dossier "Photo". Tu pourras la donner à Fabrizia, ça lui fera un joli souvenir. 
+Une image de ton alien est générée dans le dossier "Photo". Tu pourras la donner à Fabrizia, ça lui fera un joli souvenir. 
 
 ## Exercice
 La chercheuse Lou a ajouté un alien dans la base de données, il s'appelle "ARA LIA_8811". 
