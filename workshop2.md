@@ -1,7 +1,7 @@
 ---
 layout: tutorial_de
 title: Weltraumerforschung
-dbFile: data/alien_de.db
+dbFile: data/alien_de2.db
 ---
 
 # Weltraumerforschung
