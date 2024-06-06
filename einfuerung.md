@@ -5,7 +5,7 @@ dbFile: data/alien_de.db
 ---
 <h1>Galaxy SQL!</h1>
 <div class="warning">
-Dies ist eine Wiederholung der Informationen, die du bereits während der Präsentation gehört hast. Du musst also nicht alles nochmals genau lesen und kannst mit den <a href="workshop.html">workshop</a> anfangen.
+Dies ist eine Wiederholung der Informationen, die du bereits während der Präsentation gehört hast. Du musst also nicht alles nochmals genau lesen und kannst mit den <a href="workshop.html">Workshop</a> anfangen.
 <a href="workshop.html" class="button-link center"> Workshop anfangen </a>
 </div>
 
