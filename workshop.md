@@ -87,7 +87,7 @@ SQL kann wie ein Satz gelesen werden (mit einigen Wörtern auf Englisch).
 SELECT *  
 /*Wir geben den Namen der Datenbank an */ 
 FROM Ausserirdische
-WHERE nom= 'RODGERSIA_8121'"
+WHERE Name= 'RODGERSIA_8121'"
   data-solution="">
 </sql-exercise>
 
