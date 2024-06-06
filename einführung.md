@@ -1,5 +1,5 @@
 ---
-title: Einfuerung workshop SQL
+title: Einführung SQL Workshop 
 layout: tutorial_de
 dbFile: data/alien_de.db
 ---
