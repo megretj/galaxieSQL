@@ -102,7 +102,7 @@ Ich kann auch nach Aliens suchen, indem ich mehrere Merkmale benutze.
 
 <sql-exercise
 data-question="Aliens nach mehreren Merkmalen suchen"
-data-comment="Zum Beispiel, wenn ich alle grünen Aliens mit Antennen und quadratischem Kopf suche, werde ich die folgende Suche eingeben (ergänze die '...'):"
+data-comment="Zum Beispiel, wenn ich alle grünen Aliens mit Antennen und rechteckigem Kopf suche, werde ich die folgende Suche eingeben (ergänze die '...'):"
 data-default-text="SELECT *  
  FROM Ausserirdische
  WHERE farbe_Haut = '...'
@@ -160,7 +160,7 @@ data-question="Überprüfe, ob dein Alien erfolgreich in die Datenbank eingetrag
 data-comment=""
 data-default-text="SELECT *
  FROM Ausserirdische
- WHERE nom='...'
+ WHERE Name='...'
 "></sql-exercise>
 
 Es ist immer möglich, die Datenbank zu ändern.
@@ -168,8 +168,8 @@ Es ist immer möglich, die Datenbank zu ändern.
 data-question="Zum Beispiel kannst du die Lieblingspizza so ändern:"
 data-comment=""
 data-default-text="UPDATE Ausserirdische
- SET pizza= 'Pizza mit Tomatensauce'
- WHERE nom='der Name, den du willst'
+ SET Pizza= 'Pizza mit Tomatensauce'
+ WHERE Name='der Name, den du willst'
 "></sql-exercise>
 
 # Eroberung des Weltraums!
@@ -186,7 +186,7 @@ data-question="Um einen Alien zu suchen:"
 data-comment=""
 data-default-text="SELECT *
  FROM Ausserirdische
- WHERE nom='...'
+ WHERE Name='...'
 "></sql-exercise>
 
 <sql-exercise
@@ -235,7 +235,7 @@ data-question="Um die Merkmale des Aliens zu suchen"
 data-comment=""
 data-default-text="SELECT *
  FROM Ausserirdische
- WHERE nom='...'
+ WHERE Name='...'
 "></sql-exercise>
 
 # Bonus
