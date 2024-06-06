@@ -135,7 +135,7 @@ failure-message="Das ist leider nicht richtig"></input-feedback>
 
 Unglaublich, du hast einen neuen Alien auf dem Planeten Pythos entdeckt, den niemand vor dir beschrieben hat. Du hattest gerade noch Zeit, ein Foto zu machen. Als gute Wissenschaftlerin musst du ihn in die Datenbank eintragen. Da es deine Entdeckung ist, kannst du ihn nennen, wie du willst!
 
-<img src="imgs/XXX_neuerAlien.jpg" alt="drawing" width="30%"/>
+<img src="imgs/XXX_alien a ajouter.jpg" alt="drawing" width="30%"/>
 
 <sql-exercise
 data-question="Trage alle bekannten Merkmale des Aliens ein."
