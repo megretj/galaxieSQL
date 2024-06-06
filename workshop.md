@@ -22,7 +22,7 @@ Um auf die Datenbank zuzugreifen, müsst du SQL-Befehle verwenden. Das sieht so 
   data-question="Ein SQL-Code"
   data-comment="Klicken Sie auf Ausführen, um zu sehen, was passiert."
   data-default-text="SELECT *
-  FROM extraterrestres
+  FROM Ausserirdische
   LIMIT 10">
 </sql-exercise>
 
