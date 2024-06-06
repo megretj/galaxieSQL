@@ -1,10 +1,10 @@
 contents_de:
-- title: Einfuerung workshop SQL
+- title: Einfuehrung SQL Workshop 
   url: einfuerung.html
-  blurb: "Einfuerung an der workshop SQL"
-- title: Das Zaubereiministerium
-  url: zaubereiministerium.html
-  blurb: "Einfuerung "
+  blurb: "Einführung in den SQL Workshop"
+- title: Weltraumerforschung
+  url: workshop.html
+  blurb: "Workshop"
 - title: SQL-Befehle
   url: sql_befehle.html
 
