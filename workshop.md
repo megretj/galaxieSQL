@@ -79,6 +79,7 @@ Das Programm zeigt die Aliens in Form einer Tabelle an. Hier sind die verschiede
  </tr>
 </table>
 
+
 # Informationen in der Datenbank suchen:
 SQL kann wie ein Satz gelesen werden (mit einigen Wörtern auf Englisch).
 <sql-exercise
