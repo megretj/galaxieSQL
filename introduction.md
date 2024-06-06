@@ -3,7 +3,7 @@ title: Introduction atelier SQL
 layout: tutorial_fr
 dbFile: data/alien_fr.db
 ---
-<h1>Galaxy SQL!</h1>
+<h1>Cosmic Data Base!</h1>
 
 <div class="warning">
 Les informations présentes dans l'introduction seront données lors de la présentation. Si tu as écouté la présentation, tu n'as pas besoin de tout lire et tu peux directement commencer avec <a href="atelier.html">l'atelier</a>.<a href="atelier.html" class="button-link center"> Commencer l'atelier</a></div>
