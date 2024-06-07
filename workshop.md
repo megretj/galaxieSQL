@@ -224,11 +224,11 @@ Ein Bild deines Aliens wird im Ordner "Photo" generiert. Du kannst es Fabrizia g
 
 ## Übung
 
-Die Forscherin Lou hat einen Alien in die Datenbank aufgenommen, er heißt "CAMPANULA_5341".
+Die Forscherin Lou hat einen Alien in die Datenbank aufgenommen, er heißt "CLETHRA_6111".
 Allerdings hat ihn bisher noch niemand in der Basis gesehen.
 Wir werden die Aliens, die wir heute treffen, fragen, ob sie ihn schon einmal gesehen haben.
 Dazu musst du ihn in der Datenbank suchen und seine Merkmale finden.
-Erstelle dann ein Phantombild von CAMPANULA_5341, um es den anderen Aliens zu zeigen.
+Erstelle dann ein Phantombild von CLETHRA_6111, um es den anderen Aliens zu zeigen.
 
 <sql-exercise
 data-question="Um die Merkmale des Aliens zu suchen"
