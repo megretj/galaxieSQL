@@ -140,7 +140,7 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
 
 <sql-exercise
   data-question="Entre toutes les caractéristiques connues de l'alien."
-  data-comment="J'ai commencé à le faire pour toi. Mets des ??? pour les caractéristiques que tu ne connais pas. Je l'ai fait pour la taille de l'alien que nous ne connaissons pas."
+  data-comment="J'ai commencé à le faire pour toi. Tu peux mettre des ??? pour les caractéristiques que tu ne connais pas. Je l'ai fait pour la taille de l'alien que nous ne connaissons pas."
   data-default-text="INSERT INTO extraterrestres
     VALUES ('le nom que tu veux',
             'pythos', 
@@ -167,11 +167,11 @@ Incroyable, tu as découvert un nouvel alien, sur la planète pythos, que person
   
 Il est toujours possible de modifier la base de donnée.
 <sql-exercise
-  data-question="Par exemple, tu peux changer la pizza préférée ainsi:"
+  data-question="Par exemple, tu peux changer la pizza préférée de l'alien que tu viens d'ajouter:"
   data-comment=""
   data-default-text="UPDATE extraterrestres
     SET pizza= 'pizza au sugus'
-    WHERE nom='le nom que tu veux'
+    WHERE nom='le nom que tu as choisi pour ton alien'
   "></sql-exercise>
   
 # À la conquête de l'espace !
@@ -179,7 +179,7 @@ C'est maintenant à toi d'explorer !
 
 Dans la salle, tu trouveras 3 photos prises sur les planètes Céplusplus, Scratchon et Pythos. Sur celles-ci, nous y voyons plein d'aliens différents. Parmi ces aliens, certains sont déjà recensés dans notre base de données. D'autres ne le sont pas. Ton travail, ainsi que celui des autres filles de l'atelier, sera de trouver le nom des extraterrestres des posters et d'ajouter à la base de données ceux qui n'y sont pas encore. 
 Choisis un alien, de n'importe quelle planète. Pour montrer sur lequel tu travailles, écris ton nom sur un post-it et colle-le à côté de l'alien. 
-Cherche l'extraterrestre choisi dans la base de données. Si tu le trouves, écris son nom sur le post-it. Par contre, s'il n'est pas encore recensé, ajoute-le avec le nom que tu voudras et toute les caractéristiques que tu observes. Écris ensuite son nouveau nom sur le post-it pour indiquer qu'il fait maintenant parti de la base de données.
+Cherche l'extraterrestre choisi dans la base de données. Si tu le trouves, écris son nom sur le post-it pour dire que tu l'as bien trouvé. Par contre, s'il n'est pas encore recensé, ajoute-le avec le nom que tu voudras et toutes les caractéristiques que tu observes. Écris ensuite son nouveau nom sur le post-it pour indiquer qu'il fait maintenant parti de la base de données.
 
 Bon travail ! 
 
@@ -189,7 +189,7 @@ Bon travail !
   data-comment=""
   data-default-text="SELECT *
     FROM extraterrestres
-    WHERE nom='...'
+    WHERE ...
   "></sql-exercise>
 
 
@@ -197,7 +197,7 @@ Bon travail !
   data-question="Pour ajouter un alien:"
   data-comment=""
   data-default-text="INSERT INTO extraterrestres
-    VALUES ('le nom que tu veux',
+    VALUES ('le nom de ton nouvel alien',
             'sa planète', 
             '...', 
             '...', 
@@ -213,23 +213,22 @@ Bon travail !
 
 # Générer des images d'alien
 
-Nous allons maintenant apprendre à générer des dessins d'aliens en fixant certaines caractéristiques précises. 
+Nous allons maintenant apprendre à générer des dessins d'aliens en fixant certaines caractéristiques précises. Cela peut être utile si tu veux dessiner un alien à partir d'une description reçue.
 
 ## Exemple
-Tu veux dessiner un alien à partir de la description que tu as reçue.
 Ton amie Fabrizia a croisé un extraterrestre ce matin, malheureusement, elle n'a pas réussi à le prendre en photo. Elle te le décrit: 
 "Il était orange à plumes, il avait une trompe et 2 bras ainsi que 7 grands yeux noirs. Malheureusement je ne me souviens plus de la forme de sa tête."
-Choisi les attributs que tu ne connais pas de ton alien.
+Choisis les attributs que tu ne connais pas de ton alien.
 
-Rends toi sur le bureau de ton ordinateur, dans le dossier "cosmic data base" ouvre le fichier "Draw_alien.py" et entre les attributs que tu souhaites au bon endroit dans le code. Appuies ensuite sur le rond vert avec une fléche blanche ppour executer le programme et un alien devrait apparaître.
+Rends-toi sur le bureau de ton ordinateur, dans le dossier "cosmic data base" ouvre le fichier "Draw_alien.py" et entre les attributs que tu souhaites au bon endroit dans le code. Appuie ensuite sur le rond vert avec une flèche blanche pour executer le programme et un alien devrait apparaître.
 
 Une image de ton alien est générée dans le dossier "Photo". Tu pourras la donner à Fabrizia, ça lui fera un joli souvenir. 
 
 ## Exercice
 La chercheuse Lou a ajouté un alien dans la base de données, il s'appelle "ARA LIA_8811". 
-Par contre, personne n'a encore croisé cet alien à la base. 
+Par contre, aucune autre scientifique n'a encore croisé cet alien. 
 Nous allons demander aux extraterrestres que nous croisons aujourd'hui s'ils l'ont déjà vu. 
-Pour cela, il va falloir que tu le cherche dans la base de données et que tu trouves ses caractéristiques.
+Pour cela, il va falloir que tu le cherches dans la base de données et que tu trouves ses caractéristiques.
 Génère ensuite un portrait robot de ARA LIA_8811 afin de pouvoir le montrer aux autres aliens. 
 
 <sql-exercise
@@ -249,6 +248,6 @@ Les scientifiques n'ont pas nommés les extraterrestres de manière aléatoire. 
   data-comment="Sors une liste d'une quinzaine d'aliens et essaie de comprendre la logique."
   data-default-text="SELECT *
     FROM extraterrestres
-    LIMIT 15
+    LIMIT ...
   "></sql-exercise>
 
