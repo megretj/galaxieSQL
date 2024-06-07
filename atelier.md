@@ -225,11 +225,11 @@ Rends-toi sur le bureau de ton ordinateur, dans le dossier "cosmic data base" ou
 Une image de ton alien est générée dans le dossier "Photo". Tu pourras la donner à Fabrizia, ça lui fera un joli souvenir. 
 
 ## Exercice
-La chercheuse Lou a ajouté un alien dans la base de données, il s'appelle "ARA LIA_8811". 
+La chercheuse Lou a ajouté un alien dans la base de données, il s'appelle "CAMPANULA_5341". 
 Par contre, aucune autre scientifique n'a encore croisé cet alien. 
 Nous allons demander aux extraterrestres que nous croisons aujourd'hui s'ils l'ont déjà vu. 
 Pour cela, il va falloir que tu le cherches dans la base de données et que tu trouves ses caractéristiques.
-Génère ensuite un portrait robot de ARA LIA_8811 afin de pouvoir le montrer aux autres aliens. 
+Génère ensuite un portrait robot de ARA CAMPANULA_5341 afin de pouvoir le montrer aux autres aliens. 
 
 <sql-exercise
   data-question="Pour rechercher les caractéristiques de l'alien"
